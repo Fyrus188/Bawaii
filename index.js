@@ -87,8 +87,8 @@ conn.handler = async function (m) {
 
 conn.on('message-new', conn.handler) 
 
-global.mods = ['6281351658537@s.whatsapp.net']
-global.prems = ['6281351658537@s.whatsapp.net']
+global.mods = ['6281357302007@s.whatsapp.net']
+global.prems = ['6288235435804@s.whatsapp.net']
 
 global.dfail = (type, m, conn) => {
   let msg = {
@@ -141,6 +141,3 @@ fs.watch(path.join(__dirname, 'plugins'), (event, filename) => {
     }
   }
 })
-}
-else if (text == 'Ip Server'){
-conn.sendMessage(id, 'play.lebahnetwork.xyz (default)/Tinggal main..' ,MessageType.text);
